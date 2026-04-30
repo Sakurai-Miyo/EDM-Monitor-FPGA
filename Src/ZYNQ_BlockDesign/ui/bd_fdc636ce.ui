@@ -1,0 +1,64 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"0.384732",
+   "Default View_TopLeft":"-496,3",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.8.0 2024-04-26 e1825d835c VDI=44 GEI=38 GUI=JA:21.0 threadsafe
+#  -string -flagsOSRD
+preplace port port-id_clk_p_0 -pg 1 -lvl 0 -x -20 -y 660 -defaultsOSRD
+preplace port port-id_clk_n_0 -pg 1 -lvl 0 -x -20 -y 680 -defaultsOSRD
+preplace port port-id_rst_n_async_0 -pg 1 -lvl 0 -x -20 -y 700 -defaultsOSRD
+preplace port port-id_adc_dco_p_0 -pg 1 -lvl 0 -x -20 -y 760 -defaultsOSRD
+preplace port port-id_adc_dco_n_0 -pg 1 -lvl 0 -x -20 -y 780 -defaultsOSRD
+preplace port port-id_power_trig_async_0 -pg 1 -lvl 0 -x -20 -y 800 -defaultsOSRD
+preplace port port-id_power_stop_signal_0 -pg 1 -lvl 7 -x 2460 -y 790 -defaultsOSRD
+preplace port port-id_div_param_od0_0 -pg 1 -lvl 7 -x 2460 -y 770 -defaultsOSRD
+preplace port port-id_spi_sdio_0 -pg 1 -lvl 7 -x 2460 -y 110 -defaultsOSRD
+preplace port port-id_emio_spi0_sclk_o_0 -pg 1 -lvl 7 -x 2460 -y 20 -defaultsOSRD
+preplace port port-id_emio_spi0_ss_o_n_0 -pg 1 -lvl 7 -x 2460 -y 180 -defaultsOSRD
+preplace portBus adc_data_p_0 -pg 1 -lvl 0 -x -20 -y 720 -defaultsOSRD
+preplace portBus adc_data_n_0 -pg 1 -lvl 0 -x -20 -y 740 -defaultsOSRD
+preplace inst axi_dma_0 -pg 1 -lvl 2 -x 630 -y 470 -defaultsOSRD
+preplace inst zynq_ultra_ps_e_0 -pg 1 -lvl 4 -x 1460 -y 210 -defaultsOSRD
+preplace inst rst_ps8_0_96M -pg 1 -lvl 1 -x 240 -y 470 -defaultsOSRD
+preplace inst axi_smc -pg 1 -lvl 5 -x 1950 -y 280 -defaultsOSRD
+preplace inst axi_smc_1 -pg 1 -lvl 3 -x 970 -y 180 -defaultsOSRD
+preplace inst EDM_Monitor_0 -pg 1 -lvl 1 -x 240 -y 770 -defaultsOSRD
+preplace inst spi_bridge_0 -pg 1 -lvl 6 -x 2260 -y 100 -defaultsOSRD
+preplace inst EDM_Config_Reg_0 -pg 1 -lvl 6 -x 2260 -y 360 -defaultsOSRD
+preplace netloc EDM_Config_Reg_0_cfg_breakdown 1 0 7 30 350 NJ 350 NJ 350 1110J 360 1760J 440 NJ 440 2440
+preplace netloc EDM_Config_Reg_0_cfg_energy_thresh 1 0 7 40 360 NJ 360 820J 430 NJ 430 NJ 430 2100J 450 2430
+preplace netloc EDM_Config_Reg_0_cfg_update_toggle 1 0 7 10 320 NJ 320 NJ 320 1120J 460 NJ 460 NJ 460 2420
+preplace netloc EDM_Monitor_0_div_param_od0 1 1 6 NJ 770 NJ 770 NJ 770 NJ 770 NJ 770 NJ
+preplace netloc EDM_Monitor_0_power_stop_signal 1 1 6 NJ 790 NJ 790 NJ 790 NJ 790 NJ 790 NJ
+preplace netloc Net 1 6 1 NJ 110
+preplace netloc adc_data_n_0_1 1 0 1 NJ 740
+preplace netloc adc_data_p_0_1 1 0 1 NJ 720
+preplace netloc adc_dco_n_0_1 1 0 1 NJ 780
+preplace netloc adc_dco_p_0_1 1 0 1 NJ 760
+preplace netloc axi_dma_0_s2mm_introut 1 2 2 830J 310 1130
+preplace netloc clk_n_0_1 1 0 1 NJ 680
+preplace netloc clk_p_0_1 1 0 1 NJ 660
+preplace netloc power_trig_async_0_1 1 0 1 NJ 800
+preplace netloc rst_n_async_0_1 1 0 1 NJ 700
+preplace netloc rst_ps8_0_96M_peripheral_aresetn 1 1 5 450 330 820 330 1130J 350 1810 380 NJ
+preplace netloc spi_bridge_0_spi_miso 1 4 3 1810J 200 NJ 200 2420
+preplace netloc zynq_ultra_ps_e_0_emio_spi0_m_o 1 4 2 1770 120 NJ
+preplace netloc zynq_ultra_ps_e_0_emio_spi0_sclk_o 1 4 3 1760 110 2090 20 NJ
+preplace netloc zynq_ultra_ps_e_0_emio_spi0_ss_o_n 1 4 3 1800J 190 2100 180 NJ
+preplace netloc zynq_ultra_ps_e_0_pl_clk0 1 0 6 50 370 440 310 800 100 1160 80 1790 360 NJ
+preplace netloc zynq_ultra_ps_e_0_pl_resetn0 1 0 5 20 340 NJ 340 NJ 340 NJ 340 1760
+preplace netloc EDM_Monitor_0_axi_fifo_m_axis 1 1 1 460 450n
+preplace netloc axi_dma_0_M_AXI_S2MM 1 2 1 810 160n
+preplace netloc axi_smc_M00_AXI 1 1 5 460 370 NJ 370 NJ 370 NJ 370 2090
+preplace netloc axi_smc_M01_AXI 1 5 1 2100 290n
+preplace netloc zynq_ultra_ps_e_0_M_AXI_HPM0_LPD 1 4 1 1780 140n
+preplace netloc axi_smc_1_M00_AXI 1 3 1 N 180
+levelinfo -pg 1 -20 240 630 970 1460 1950 2260 2460
+pagesize -pg 1 -db -bbox -sgen -200 0 2650 940
+"
+}
+{
+   "da_axi4_cnt":"9",
+   "da_clkrst_cnt":"1"
+}

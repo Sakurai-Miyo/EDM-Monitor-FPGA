@@ -1,0 +1,41 @@
+# Vivado Project Files
+*.xpr
+*.xsa
+*.cache/
+*.gen/
+*.hw/
+*.ip_user_files/
+*.runs/
+*.sim/
+*.tmp/
+*.srcs/
+
+# Vivado Log and Data Files
+*.jou
+*.log
+*.pb
+*.wdb
+
+# OS and Editor Files
+.DS_Store
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Simulation and Test Files
+*.vvp
+*.vcd
+*.fst
+
+# Backup Files
+*.bak
+*.backup
+*~
+
+# IP Core Generated Files
+ip_upgrade.log
+
+# Vivado Build Artifacts
+.Xil/
